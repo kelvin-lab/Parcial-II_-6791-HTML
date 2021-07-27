@@ -1,0 +1,133 @@
+header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(5,50,69);
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+#letas{
+    float: left;
+    width: 70%;
+    align-items: center;
+}
+.clearfix{
+    clear: both; /*los elementos debajo del float permanescan en su sitio*/
+}
+img{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    height: 350px;
+}
+a:link{
+    color:teal;
+}
+a:hover{
+    size: 20px;
+}
+a:visited{
+    color: slategrey;
+}
+h1{
+    color: green;
+    line-height: 30px;
+    font-size: 40pt;
+    text-align: center;
+}
+h2{
+    line-height: 30px;
+    font-size: 10pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h3{
+    line-height: 30px;
+    font-size: 8pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article{
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+    vertical-align:top;
+    width: 85%;
+    margin: 15px auto;
+   
+}
+
+main{
+    float: left;
+    width: 54%;
+}
+
+nav{
+    background: rgb(27, 28, 27);
+    height: 500px;
+    border: 1px solid black;
+    width: 300px;
+    float: left;
+}
+nav ul li{
+    width: 300px;
+    list-style: none;
+    margin: 10px;
+    color: white;
+    line-height: 5px;
+}
+nav ul li a{
+    color: white;
+}
+aside{
+    background: rgb(27, 28, 27);
+    height: 500px;
+    border: 1px solid black;
+    width: 308px;
+    float: left;
+    color:white;
+}
+
+.clearfix{
+    clear: both; /*los elementos debajo del float permanescan en su sitio*/
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    /*width:1100px;*/
+    margin: 0px auto;
+}
+
+
+.ml11 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.ml11 .text-wrapper {
+position: relative;
+display: inline-block;
+
+}
+
+.ml11 .line {
+opacity: 0;
+position: absolute;
+left: 0;
+height: 50%;
+width: 3px;
+background-color:green;
+transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+top: 10px;
+left: 0;
+}
+
+.ml11 .letter {
+display: inline-block;
+line-height: 1em;
+}
